@@ -1,0 +1,147 @@
+.hero-section {
+    padding: 180px 0 93px;
+    background-image: url("../img/image\ 3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 130vh;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+.container {
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+.hero__form {
+    width: 449px;
+    margin-bottom: 93px;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #3A3A3A80;
+}
+.hero__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.31px;
+    color: $color-white;
+    margin-bottom: 8px;
+}
+.hero__subtex {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: $color-white;
+    margin-bottom: 20px;
+}
+.hero__label-tex{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    color: $color-white;
+    margin-bottom: 8px;
+}
+.hero__input{
+    width: 399px;
+    background-image: url("../img/location_line\ \(1\)\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: left center;
+    padding: 20px 30px 20px;
+    border-radius: 12px;
+    border: none;
+}
+.input__hero{
+    width: 399px;
+    background-image: url("../img/icon1.svg");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: left center;
+    padding: 20px 30px 20px;
+    border-radius: 12px;
+    border: none;
+}
+.hero__tex-label{
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    color: $color-white;
+}
+.hero__content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    
+}
+.hero__label-content {
+    padding: 15px 55px;
+    border-radius: 12px;
+    background-color: $color-white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.57px;
+}
+.hero__content-label{
+    margin-left: 20px;
+    border-radius: 12px;
+    padding: 15px 50px;
+    background-color: $color-white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.57px;
+}
+.hero__content {
+    border: none;
+}
+.hero__button{
+    width: 399px;
+    padding: 10px 24px;
+    margin-top: 25px;
+    border-radius: 8px; 
+    border: none;
+    background-color: $orange-color;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.57px;
+    color: $color-white;
+    transition: all 0.3s linear;
+    
+    &:hover{
+        color: $orange-color;
+        background-color: $color-white;
+    }
+}
+.hero__wrapper-two {
+    width: 576px;
+    margin-top: 43px;
+    padding-left: 30px;
+}
+.hero__wrapper-tex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 10px;
+}
+.hero__tex {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color: $color-white;
+}
+.hero__subtitle {
+    margin-bottom: 20px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.77px;
+    color: $color-white;
+}
+.hero__two-tex {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: $color-white;
+}
