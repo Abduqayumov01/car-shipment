@@ -7,51 +7,31 @@
     z-index: 50;
 }
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-.header__link {
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 .header__wrapper-link{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
+    @include display( $item:center, $space:space-between, $gap:50px,); 
 }
 .header__list {
-    display: flex;
-    align-items: center;
-    gap: 25px;
+    @include display( $item:center, $space:none, $gap:25,); 
 }
 .navbar__link {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19.36px;
-    color: $color-white;
-    text-transform: uppercase;
-    transition: all 0.3s linear;
-    
+    @include textStyle( $MB: 0, $FS: 16px, $FW: 500, $LH: 19.36, $CLR: $color-white, $TT: uppercase);
+    transition: all 0.3s linear;  
     &:hover{
         color: $orange-color;
     }
     &:active{
         color: blue;
-    }
-    
+    }  
 }
-
 .header__phone-link {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    @include display( $item:center, $space:none, $gap:10px,); 
 }
 .header__phone {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19.36px;
-    color: $color-white;
+    @include textStyle( $MB: 0, $FS: 16px, $FW: 500, $LH: 19.36, $CLR: $color-white, $TT: uppercase);
     transition: all 0.3s linear;
     
     &:hover{

@@ -6,22 +6,14 @@
     margin-bottom: 100px;
 }
 .service__title {
-    margin-bottom: 8px;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 45.99px;
+    @include textStyle( $MB: 8px, $FS: 38px, $FW: 700, $LH: 45.99px, $CLR: $color-white, $TT:capitalize);
 }
 .service__tex {
-    color:  #000000AD;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    @include textStyle( $MB: 0px, $FS: 16px, $FW: 400, $LH: 24px, $CLR: #000000AD, $TT:capitalize);
 }
 .service__list{
-    display: flex;
-    justify-content: space-between;
+    @include display( $item:none, $space:space-between, $gap:29px,);  
     flex-wrap: wrap;
-        gap: 29px;
 }
 .service__item {
     position: relative;
@@ -56,19 +48,10 @@
     bottom: 0;
 }
 .service__subtitle {
-    margin-bottom: 15px;
-    color: white;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29.05px;
+    @include textStyle( $MB: 15px, $FS: 24px, $FW: 700, $LH: 29.05px, $CLR: white, $TT:capitalize);
 }
 .service__link {
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 18.15px;
-    display: flex;
-    align-items: center;
+    @include textStyle( $MB: 15px, $FS: 15px, $FW: 500, $LH: 18.15px, $CLR: white, $TT:capitalize);
     gap: 6.5px;
     
 }
@@ -83,18 +66,10 @@
     
 }
 .service__hide-content > h3{
-    margin-bottom: 10px;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29.05px;
-    color: black;
+    @include textStyle( $MB: 10px, $FS: 24px, $FW: 700, $LH: 29.05px, $CLR: black, $TT:capitalize);
 }
 .service__hide-content > p{
-    margin-bottom: 15px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    color: black;
+    @include textStyle( $MB: 15px, $FS: 14px, $FW: 400, $LH: 20px, $CLR: black, $TT:capitalize);
 }
 .service__hide-link {
     color: orange;
